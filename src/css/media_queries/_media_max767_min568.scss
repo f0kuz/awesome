@@ -1,0 +1,40 @@
+@media (max-width: 767px) and (min-width: 568px) {
+    body {
+        background-position: center top;
+        background-size: cover;
+    }
+    .header__brand-logo {
+        height: 2.6rem;
+    }
+    .navigation__list,
+    .navigation__social {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .intro__quote {
+        padding-top: 1rem;
+        line-height: 1.9rem;
+        font-size: 1.5rem;
+    }
+    .awesome-shape {
+        margin: 2rem 0;
+        width: 5rem;
+    }
+    .intro__social--invitation {
+        margin-bottom: 1.4rem;
+        font-size: .78rem;
+        line-height: 1.3rem;
+    }
+    .intro__social--profile {
+        font-size: .8rem;
+        &:nth-child(3) {
+            margin: 0 1.4rem;
+        }
+    }
+    .intro__social--icon {
+        width: 1.25rem;
+    }
+    .navigation--toggle {
+        top: 30px;
+    }
+}

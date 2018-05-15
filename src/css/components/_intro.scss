@@ -1,0 +1,61 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 5rem;
+    text-align: center;
+}
+.intro__quote {
+    margin: 0;
+    padding-top: 5.6rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: $brandBlack;
+    font-size: 2.3rem;
+    font-family: $ralewayExtraLight;
+}
+.intro__quote--be-awesome {
+    color: $brandWhite;
+    font-family: $RalewaySemiBold;
+}
+.intro__social {
+    text-align: center;
+}
+.awesome-shape {
+    align-self: center;
+    margin: 6.5rem 0;
+    width: 7rem;
+}
+.awesome-shape-spin {
+    animation: awesome-shape-rotate .5s ease-in-out;
+}
+.intro__social--invitation {
+    margin-bottom: 1.6rem;
+    text-shadow: .1rem .1rem .3rem #000;
+    font-size: 1.125rem;
+}
+.intro__social--profile {
+    display: inline-flex;
+    align-items: center;
+    text-shadow: .1rem .1rem .3rem #000;
+    font-size: 1.06rem;
+    a {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    &:nth-child(3) {
+        margin: 0 3.5rem;
+    }
+}
+.intro__social--icon {
+    width: 1.563rem;
+    color: $brandWhite;
+}
+@keyframes awesome-shape-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

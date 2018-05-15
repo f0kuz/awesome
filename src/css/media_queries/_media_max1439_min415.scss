@@ -1,0 +1,13 @@
+@media (max-width: 1439px) and (min-width: 415px) {
+    .more-trigger__wrapper {
+        left: calc(50vw - 24px);
+    }
+    .more-trigger__inner {
+        width: 86px;
+    }
+    .more-trigger__text {
+        bottom: 92px;
+        left: 7px;
+        font-size: 0.76rem;
+    }
+}
