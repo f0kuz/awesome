@@ -7,9 +7,9 @@ import NavigationSocial from './NavigationSocial';
 const NavigationInner = () => (
     <nav className="navigation__inner">
         {/* This BrandHeader is show when navigation__inner--opened is active  */}
-        <BrandHeader styleName="navigation__inner--header-list header__brand-text" />
         <NavigationList />
         <NavigationSocial />
+        <BrandHeader styleName="navigation__inner--header-list header__brand-text" />
     </nav>
 );
 
